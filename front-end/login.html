@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login SignUp</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <main>
+        <div class="card">
+            <div class="container">
+                <h1>Login Page</h1>
+                <form action="/login" method="post" id="loginForm">
+                    <input type="text" name="username" id="username" placeholder="Username" required>
+                    <input type="password" name="password" id="password" placeholder="Password" required>
+                    <button type="submit">Login</button>
+                </form>
+                <p id="signup">Don't have an account?<a href="/signup">SignUp</a></p>
+                <p id="error">Error</p>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
