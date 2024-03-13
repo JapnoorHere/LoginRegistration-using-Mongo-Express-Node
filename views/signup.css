@@ -84,8 +84,7 @@ p {
 
 #error{
     color: red;
-    display: none;
-}
+    }
 
 a {
     color: rgb(255, 230, 0);
